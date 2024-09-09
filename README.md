@@ -2,14 +2,7 @@
 
 This Streamlit-based web application performs real-time sentiment analysis on user-provided text using OpenAI's language model and LangChain.
 
-## Features
-
-- **Real-time Analysis**: Instant sentiment evaluation of input text
-- **User-friendly Interface**: Intuitive design with customizable options
-- **Detailed Results**: Comprehensive explanations of sentiment analysis
-- **Responsive Design**: Styled components for optimal viewing on various devices
-
-## Technologies Used
+## Tech Stack
 
 - [Streamlit](https://streamlit.io/): For creating the interactive web application
 - [LangChain](https://python.langchain.com/docs/get_started/introduction): For natural language processing tasks
@@ -19,8 +12,8 @@ This Streamlit-based web application performs real-time sentiment analysis on us
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/interactive-sentiment-analysis.git
-   cd interactive-sentiment-analysis
+   git clone https://github.com/akileshjayakumar/streamlit-sentiment-analysis-app
+   cd streamlit-sentiment-analysis-app
    ```
 
 2. Install dependencies:
@@ -49,15 +42,6 @@ This Streamlit-based web application performs real-time sentiment analysis on us
 4. Adjust model parameters in the sidebar for customized analysis:
    - Temperature: Controls randomness (0.0 to 1.0)
    - Max Tokens: Sets the maximum length of the generated response
-
-## Code Overview
-
-The main application logic is contained in `app.py`. Key components include:
-
-- **Page Configuration**: Sets up the Streamlit interface
-- **LangChain Integration**: Configures the prompt template and OpenAI model
-- **User Interaction**: Handles input and triggers sentiment analysis
-- **UI Enhancement**: Implements styled components for an improved user experience
 
 ## Contributing
 
